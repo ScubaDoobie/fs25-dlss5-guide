@@ -12,8 +12,22 @@ A step-by-step guide to running **DLSS 5 Neural Rendering** in **Farming Simulat
 
 ---
 
+## Where do I get the files?
+
+| File | Where it comes from | Link |
+|---|---|---|
+| **ReShade 6.8 with full add-on support** | The official ReShade website by crosire | **[reshade.me → Download](https://reshade.me/#download)** |
+| **`renodx-dlss5.addon64`** (DLSS 5 add-on) | The RenoDX project. The DLSS 5 add-on is an experimental community build. It is **not** in RenoDX's normal GitHub Releases yet; it's shared through the official RenoDX Discord. | **[RenoDX Discord](https://discord.gg/renodx)** · [RenoDX on GitHub](https://github.com/clshortfuse/renodx) |
+| **`nvngx_dlssnr.dll`** (DLSS 5 runtime) | NVIDIA. It hasn't been publicly released by NVIDIA yet; the RenoDX community provides it alongside the add-on. | **[RenoDX Discord](https://discord.gg/renodx)** |
+
+> [!NOTE]
+> **This repo doesn't host any of these files.** Always download them from the sources above, never from random re-uploads, and scan anything you download.
+
+---
+
 ## Contents
 
+- [Where do I get the files?](#where-do-i-get-the-files)
 - [What you need](#what-you-need)
 - [Step 1: Install ReShade (add-on version)](#step-1-install-reshade-add-on-version)
 - [Step 2: Add the DLSS 5 files](#step-2-add-the-dlss-5-files)
@@ -34,7 +48,7 @@ A step-by-step guide to running **DLSS 5 Neural Rendering** in **Farming Simulat
 | **Latest NVIDIA driver** | Update with the NVIDIA app before you start. |
 | **Farming Simulator 25 on Steam** | Default folder: `C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 25\x64` |
 | **ReShade 6.8 with full add-on support** | From the official site: **[reshade.me](https://reshade.me/#download)**. Get the *"with full add-on support"* download, not the standard one. |
-| **RenoDX DLSS 5 add-on** (`renodx-dlss5.addon64`) + **DLSS 5 runtime** (`nvngx_dlssnr.dll`) | Get these from the RenoDX project and its community. Project page: **[github.com/clshortfuse/renodx](https://github.com/clshortfuse/renodx)** |
+| **RenoDX DLSS 5 add-on** (`renodx-dlss5.addon64`) + **DLSS 5 runtime** (`nvngx_dlssnr.dll`) | Both come from the RenoDX community. See [Where do I get the files?](#where-do-i-get-the-files) |
 
 > [!TIP]
 > Not sure where your game is installed? In Steam, right-click **Farming Simulator 25** → **Manage** → **Browse local files**, then open the **x64** folder.
@@ -61,6 +75,8 @@ A step-by-step guide to running **DLSS 5 Neural Rendering** in **Farming Simulat
 ---
 
 ## Step 2: Add the DLSS 5 files
+
+Download the DLSS 5 add-on package from the **[RenoDX Discord](https://discord.gg/renodx)** (see [Where do I get the files?](#where-do-i-get-the-files)). Make sure you get the build for your GPU (RTX 50, or the RTX 40/Ada build).
 
 Copy these **two files** into the same **x64** folder:
 
